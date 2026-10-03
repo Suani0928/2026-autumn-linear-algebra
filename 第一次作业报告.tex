@@ -1,5 +1,6 @@
 \documentclass[UTF8,12pt]{ctexart}
-\usepackage{amsmath,amssymb}
+\usepackage{amsmath,amssymb,graphicx}
+\graphicspath{{./figs/}}
 \usepackage{geometry}
 \geometry{top=20mm,right=10mm,left=10mm,bottom=20mm}
 
@@ -136,6 +137,14 @@ n-1&\cdots&0&0&0\\
 \end{vmatrix}.
 \]
 
+\textbf{错误示例: } 忽略交换列带来的负号.
+
+\begin{figure}[h]
+    \caption{第9题错误示例}
+    \includegraphics{figs/1-1}
+    \centering
+\end{figure}
+
 \textbf{解．} 按行列式的定义, 每一项必须从每行、每列各取一个元素. 由于每一行都只有一个非零元素, 三个行列式的展开式都至多有一个非零项. 
 
 \textbf{(1)} 唯一可能的非零项对应排列
@@ -215,6 +224,15 @@ f(x)=\begin{vmatrix}
 \end{vmatrix}
 \]
 中 $x^4$ 与 $x^3$ 的系数, 并说明理由. 
+
+\textbf{错误示例: } 行列式定义掌握不够.
+
+\begin{figure}[h]
+    \caption{第11题错误示例}
+    \includegraphics{figs/1-2}
+    \centering
+\end{figure}
+
 
 \textbf{解．} 行列式定义展开式中的每一项, 都是从每行、每列各取一个元素所得的乘积（再乘以相应排列的符号）. 矩阵中含 $x$ 的位置为
 \[
